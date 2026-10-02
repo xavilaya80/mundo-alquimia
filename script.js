@@ -2046,15 +2046,77 @@ function renderInventory() {
                 if (btn._longPressFired) { btn._longPressFired = false; return; }
                 selectElement(elementId);
             };
-            // En táctil: mantener pulsado abre la enciclopedia (no hay clic derecho)
-            btn.addEventListener('touchstart', () => {
+            // Gestos táctiles: toque = seleccionar · mantener ~0.25s y mover = arrastrar
+            // · mantener quieto 0.6s = enciclopedia · deslizar de inmediato = scroll
+            btn.addEventListener('touchstart', (e) => {
+                const t = e.touches[0];
+                btn._touch = { x: t.clientX, y: t.clientY, dragReady: false, dragging: false, ghost: null, scrolled: false };
+                btn._dragReadyTimer = setTimeout(() => {
+                    if (btn._touch && !btn._touch.scrolled) {
+                        btn._touch.dragReady = true;
+                        btn.classList.add('drag-ready');
+                        if (navigator.vibrate) navigator.vibrate(30);
+                    }
+                }, 250);
                 btn._pressTimer = setTimeout(() => {
-                    btn._longPressFired = true;
-                    openEncyclopedia(elementId);
-                }, 550);
+                    if (btn._touch && !btn._touch.dragging && !btn._touch.scrolled) {
+                        btn._longPressFired = true;
+                        limpiarGestoTactil(btn);
+                        openEncyclopedia(elementId);
+                    }
+                }, 600);
             }, { passive: true });
-            btn.addEventListener('touchmove', () => clearTimeout(btn._pressTimer), { passive: true });
-            btn.addEventListener('touchend', () => clearTimeout(btn._pressTimer));
+
+            btn.addEventListener('touchmove', (e) => {
+                const st = btn._touch;
+                if (!st) return;
+                const t = e.touches[0];
+                const dist = Math.hypot(t.clientX - st.x, t.clientY - st.y);
+                if (!st.dragReady && !st.dragging) {
+                    if (dist > 12) { // movimiento inmediato: es scroll, cancelar gestos
+                        st.scrolled = true;
+                        clearTimeout(btn._dragReadyTimer);
+                        clearTimeout(btn._pressTimer);
+                    }
+                    return;
+                }
+                e.preventDefault(); // ya es un arrastre: bloquear el scroll
+                if (!st.dragging && dist > 6) {
+                    st.dragging = true;
+                    clearTimeout(btn._pressTimer);
+                    st.ghost = btn.cloneNode(true);
+                    st.ghost.className = 'element drag-ghost';
+                    document.body.appendChild(st.ghost);
+                }
+                if (st.dragging) {
+                    st.ghost.style.left = t.clientX + 'px';
+                    st.ghost.style.top = t.clientY + 'px';
+                    marcarSlotBajo(t.clientX, t.clientY);
+                    // Auto-scroll hacia los slots si el dedo llega al borde de la pantalla
+                    if (t.clientY < 100) window.scrollBy(0, -12);
+                    else if (t.clientY > window.innerHeight - 100) window.scrollBy(0, 12);
+                }
+            }, { passive: false });
+
+            btn.addEventListener('touchend', (e) => {
+                clearTimeout(btn._dragReadyTimer);
+                clearTimeout(btn._pressTimer);
+                const st = btn._touch;
+                if (st && st.dragging) {
+                    const t = e.changedTouches[0];
+                    const idx = slotBajoPunto(t.clientX, t.clientY);
+                    if (idx === 1) { slot1 = elementId; updateSlots(); }
+                    if (idx === 2) { slot2 = elementId; updateSlots(); }
+                    btn._longPressFired = true; // suprime el click sintético que sigue
+                }
+                limpiarGestoTactil(btn);
+            });
+
+            btn.addEventListener('touchcancel', () => {
+                clearTimeout(btn._dragReadyTimer);
+                clearTimeout(btn._pressTimer);
+                limpiarGestoTactil(btn);
+            });
             btn.onkeydown = (e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
@@ -2451,6 +2513,29 @@ function combineElements() {
     updateSlots();
 }
 
+// === HELPERS DEL ARRASTRE TÁCTIL ===
+function slotBajoPunto(x, y) {
+    const el = document.elementFromPoint(x, y);
+    if (!el) return 0;
+    if (el.closest('#slot1')) return 1;
+    if (el.closest('#slot2')) return 2;
+    return 0;
+}
+
+function marcarSlotBajo(x, y) {
+    const idx = slotBajoPunto(x, y);
+    document.getElementById('slot1').classList.toggle('drag-over', idx === 1);
+    document.getElementById('slot2').classList.toggle('drag-over', idx === 2);
+}
+
+function limpiarGestoTactil(btn) {
+    if (btn._touch && btn._touch.ghost) btn._touch.ghost.remove();
+    btn.classList.remove('drag-ready');
+    btn._touch = null;
+    document.getElementById('slot1').classList.remove('drag-over');
+    document.getElementById('slot2').classList.remove('drag-over');
+}
+
 // === ARRASTRAR Y SOLTAR EN LOS SLOTS ===
 ["slot1", "slot2"].forEach((slotId, idx) => {
     const div = document.getElementById(slotId);
@@ -2592,7 +2677,7 @@ document.getElementById('btnSound').innerText = soundOn ? "🔊" : "🔇";
 
 // Mensaje inicial adaptado a pantallas táctiles (sin arrastrar ni clic derecho)
 if (window.matchMedia("(pointer: coarse)").matches) {
-    showMessage("¡Toca 2 elementos y pulsa Combinar! Mantén pulsado uno para ver su enciclopedia.");
+    showMessage("¡Toca 2 elementos, o mantenlos pulsados y arrástralos! Quieto un momento = enciclopedia.");
 }
 
 // Sincronizar logros ya obtenidos sin mostrar toasts (ej. partidas antiguas)

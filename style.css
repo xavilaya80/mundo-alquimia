@@ -212,7 +212,28 @@ progress::-webkit-progress-value {
 .element {
     position: relative;
     user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
     cursor: grab;
+}
+
+/* Táctil: el elemento está listo para arrastrarse */
+.element.drag-ready {
+    border-color: var(--accent-color);
+    transform: scale(1.12);
+    box-shadow: 0 0 10px rgba(0, 245, 212, 0.5);
+}
+
+/* Fantasma que sigue al dedo durante el arrastre táctil */
+.drag-ghost {
+    position: fixed;
+    z-index: 400;
+    pointer-events: none;
+    opacity: 0.92;
+    transform: translate(-50%, -120%) scale(1.15);
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 14px rgba(0, 245, 212, 0.6);
+    margin: 0;
 }
 
 /* Foco visible para navegación con teclado */
