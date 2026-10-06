@@ -908,7 +908,10 @@ const elementsDB = {
     "titanic": { name: "Titanic", emoji: "🚢🧊", group: "artefactos" },
     "pinocho": { name: "Pinocho", emoji: "🤥🪵", group: "artefactos" },
     "trineo_santa": { name: "Trineo de Papá Noel", emoji: "🛷🎅", group: "artefactos" },
-    "arbol_navidad": { name: "Árbol de Navidad", emoji: "🎄", group: "artefactos" }
+    "arbol_navidad": { name: "Árbol de Navidad", emoji: "🎄", group: "artefactos" },
+    "ceramica": { name: "Cerámica", emoji: "🏺✨", group: "materiales" },
+    "piramide_keops": { name: "Pirámide de Keops", emoji: "🔺✨", group: "artefactos" },
+    "estrella_muerte": { name: "Estrella de la Muerte", emoji: "💀🌑", group: "artefactos" }
 };
 
 // Nombres de categorías actualizados
@@ -1461,7 +1464,6 @@ const rawRecipes = {
     "villano+arena": "hombre_arena",
     "superheroe+rayo": "flash",
     "spiderman+alienigena": "venom",
-    "villano+alienigena": "venom",
     "superheroe+escudo": "capitan_america",
     "soldado+superheroe": "capitan_america",
     "superheroe+murcielago": "batman",
@@ -1525,7 +1527,7 @@ const rawRecipes = {
     "aire+luz": "cielo",
     "pantano+huevo": "lagarto",
     // Emociones
-    "humano+humano": "amor",
+    "humano+humano": ["amor", "nacimiento"],
     "amor+planeta": "paz",
     // Religión
     "fe+humano": "profeta",
@@ -1629,7 +1631,7 @@ const rawRecipes = {
     "dinosaurio+fuego": "dragon",
     "zombie+cadaver": "necrofago",
     "mago+energia": "semidios",
-    "guerrero+dragon": "heroe",
+    "guerrero+dragon": ["heroe", "sangre"],
     "pajaro+cazador": ["carne", "pluma", "sangre"],
     "pluma+papel": "libro",
     "agua+alcohol": "vodka",
@@ -1768,7 +1770,7 @@ const rawRecipes = {
     "metal+piedra": "chispa",
     "chispa+hoja": "hoguera",
     "hoguera+hoja": "humo",
-    "hilo+palo": "cana_pescar",
+    "hilo+palo": ["cana_pescar", "arco"],
     "hilo+tela": "lienzo",
     "lienzo+palo": "vela_barco",
     "madera+mar": "balsa",
@@ -1882,6 +1884,87 @@ const rawRecipes = {
 
     // === RECETAS: ARTEFACTOS LEGENDARIOS ===
     "estatua+leon": "esfinge",
+
+    // === RESCATADAS DEL TXT (2ª pasada) ===
+    "aire+lava": "piedra",
+    "agua+piedra": "arena",
+    "alcohol+pan": "cerveza",
+    "bestia+cazador": ["carne", "lana", "sangre"],
+    "humano+arcilla": "ceramica",
+    "arcilla+hoguera": "ceramica",
+    "hormigon+ladrillo": "casa",
+    "petroleo+carro": "coche",
+    "cristal+casa": "rascacielos",
+    "cristal+vacio": "bombilla",
+    "electricidad+vacio": "onda_radio",
+    "energia+semiconductor": "onda_radio",
+    "television+libro": "computadora",
+    "metal+radiacion": "plutonio",
+    "plutonio+arma": "bomba_atomica",
+    "plutonio+plutonio": "bomba_atomica",
+    "computadora+onda_radio": "celular",
+    "semilla+energia": "cafe_bebida",
+    "avion+vacio": "cohete",
+    "fuego+onda_radio": "laser",
+    "mercurio+semidios": "piedra_filosofal",
+    "magia+mercurio": "piedra_filosofal",
+    "humano+computadora": "ciborg",
+    "herramienta+ley": "mecanismo",
+    "alcoholico+barco": "pirata",
+    "agua+cristal": "hielo",
+    "conocimiento+pez": "pulpo",
+    "escarabajo+trabajo": "hormiga",
+    "masa+fruta": "pastel",
+    "hielo+mecanismo": "refrigerador",
+    "dinero+rascacielos": "banco",
+    "diversion+ley": "juego",
+    "vodka+pirata": "ron",
+    "maquina_escribir+humano": "periodista",
+    "alienigena+cohete": "ovni",
+    "bestia+magia": "unicornio",
+    "arma+magia": "varita",
+    "dragon+sacerdote": "ceniza",
+    "guerrero+trampa": "cadaver",
+    "humano+isla": ["playa", "acantilado", "bosque"],
+    "humano+mapa": "tesoro",
+    "humo+vela_barco": "comerciante",
+    "arbol+hacha": "madera",
+    "hacha+palo": "lanza",
+    "lanza+mar": "pez",
+    "carne+hoguera": "filete",
+    "agua+desierto": "nilo",
+    "humano+sol": "faraon",
+    "faraon+sol": "ra",
+    "nilo+humano": "campo",
+    "aire+coche": "avion",
+    "arma+cohete": "misil",
+    "conocimiento+vida": "adn",
+    "aire+mecanismo": "helicoptero",
+    "mecanismo+trabajo": "robot",
+    "coche+vacio": "modulo_lunar",
+    "satelite+satelite": "estacion_espacial",
+    "disquete+laser": "cd",
+    "humano+muerte": "zombie",
+    "humano+trigo": "pan",
+    "arma+vacio": "estrella_muerte",
+    "muerte+religion": "sacrificio",
+    "bomba_atomica+semidios": "flor",
+
+    // === COMBINACIONES DE 3 ELEMENTOS (ARTEFACTOS ORIGINALES) ===
+    "arena+cadaver+piedra": "piramide_keops",
+    "bestia+humano+piedra": "esfinge",
+    "metal+rascacielos+torre": "torre_eiffel",
+    "dinosaurio+mar+radiacion": "godzilla",
+    "resurreccion+sangre+semidios": "santo_grial",
+    "energia+espada+luz": "sable_luz",
+    "caos+muerte+oscuridad": "caja_pandora",
+    "energia+mecanismo+vacio": "movimiento_perpetuo",
+    "demonio+lava+magia": "anillo_unico",
+    "piedra+piedra+piedra": "stonehenge",
+    "barco+hielo+muerte": "titanic",
+    "herramienta+madera+vida": "pinocho",
+    "humano+madera+nieve": "trineo_santa",
+    "lagarto+piedra+veneno": "basilisco",
     "metal+torre": "torre_eiffel",
     "dinosaurio+radiacion": "godzilla",
     "jesus+sangre": "santo_grial",
@@ -1918,16 +2001,24 @@ for (let key in recipes) {
 const recipesByResult = {};     // id -> recetas que lo producen
 const recipesByIngredient = {}; // id -> recetas donde participa
 for (let key in recipes) {
-    const [ingA, ingB] = key.split('+');
-    const entry = { a: ingA, b: ingB, results: recipes[key] };
+    const parts = key.split('+'); // 2 o 3 ingredientes
+    const entry = { parts, results: recipes[key] };
     recipes[key].forEach(r => {
         if (!recipesByResult[r]) recipesByResult[r] = [];
         recipesByResult[r].push(entry);
     });
-    [...new Set([ingA, ingB])].forEach(ing => {
+    [...new Set(parts)].forEach(ing => {
         if (!recipesByIngredient[ing]) recipesByIngredient[ing] = [];
         recipesByIngredient[ing].push(entry);
     });
+}
+
+// Los demás ingredientes de una receta, quitando UNA aparición del elemento dado
+// (importante para recetas con repetidos, como piedra+piedra+piedra)
+function otrosIngredientes(parts, elementId) {
+    const otros = [...parts];
+    otros.splice(otros.indexOf(elementId), 1);
+    return otros;
 }
 
 const totalElements = Object.keys(elementsDB).length;
@@ -1945,6 +2036,7 @@ document.getElementById('progressBar').max = totalElements;
 let unlockedElements = [];
 let slot1 = null;
 let slot2 = null;
+let slot3 = null;
 
 function loadProgress() {
     const savedData = localStorage.getItem("alquimiaSave");
@@ -1967,7 +2059,7 @@ function resetGame() {
         localStorage.removeItem("alquimiaSave");
         localStorage.removeItem("alquimiaLogros");
         unlockedElements = ["agua", "fuego", "tierra", "aire"];
-        slot1 = null; slot2 = null;
+        slot1 = null; slot2 = null; slot3 = null;
         updateSlots();
         document.getElementById('searchBar').value = "";
         showMessage("El mundo ha vuelto a su estado original.", "orange");
@@ -1980,8 +2072,9 @@ function hasNewCombos(elementId, unlockedSet) {
     const entries = recipesByIngredient[elementId];
     if (!entries) return false;
     return entries.some(r => {
-        const otro = r.a === elementId ? r.b : r.a;
-        return unlockedSet.has(otro) && r.results.some(res => elementsDB[res] && !unlockedSet.has(res));
+        const otros = otrosIngredientes(r.parts, elementId);
+        return otros.every(o => unlockedSet.has(o)) &&
+               r.results.some(res => elementsDB[res] && !unlockedSet.has(res));
     });
 }
 
@@ -2105,8 +2198,7 @@ function renderInventory() {
                 if (st && st.dragging) {
                     const t = e.changedTouches[0];
                     const idx = slotBajoPunto(t.clientX, t.clientY);
-                    if (idx === 1) { slot1 = elementId; updateSlots(); }
-                    if (idx === 2) { slot2 = elementId; updateSlots(); }
+                    if (idx > 0) ponerEnSlot(idx, elementId);
                     btn._longPressFired = true; // suprime el click sintético que sigue
                 }
                 limpiarGestoTactil(btn);
@@ -2156,23 +2248,25 @@ function filterInventory() {
 }
 
 function selectElement(elementId) {
-    if (!slot1) { slot1 = elementId; updateSlots(); } 
-    else if (!slot2) { slot2 = elementId; updateSlots(); } 
+    if (!slot1) { slot1 = elementId; updateSlots(); }
+    else if (!slot2) { slot2 = elementId; updateSlots(); }
+    else if (!slot3) { slot3 = elementId; updateSlots(); }
     else { showMessage("Los espacios están llenos. ¡Combínalos!", "orange"); }
 }
 
 function clearSlot(slotNumber) {
     if (slotNumber === 1) slot1 = null;
     if (slotNumber === 2) slot2 = null;
+    if (slotNumber === 3) slot3 = null;
     updateSlots();
     showMessage("¡Combina elementos para crear cosas nuevas!");
 }
 
 function updateSlots() {
-    const s1Div = document.getElementById('slot1');
-    const s2Div = document.getElementById('slot2');
-    s1Div.innerHTML = slot1 ? `${elementsDB[slot1].emoji}<br><span>${elementsDB[slot1].name}</span>` : "?";
-    s2Div.innerHTML = slot2 ? `${elementsDB[slot2].emoji}<br><span>${elementsDB[slot2].name}</span>` : "?";
+    [[1, slot1], [2, slot2], [3, slot3]].forEach(([n, id]) => {
+        const div = document.getElementById('slot' + n);
+        div.innerHTML = id ? `${elementsDB[id].emoji}<br><span>${elementsDB[id].name}</span>` : "?";
+    });
 }
 
 function showMessage(text, color = "#4cc9f0") {
@@ -2182,19 +2276,14 @@ function showMessage(text, color = "#4cc9f0") {
 }
 
 function getAvailableRecipes() {
-    let available = [];
-    for(let i = 0; i < unlockedElements.length; i++) {
-        for(let j = i; j < unlockedElements.length; j++) {
-            let e1 = unlockedElements[i];
-            let e2 = unlockedElements[j];
-            let key = [e1, e2].sort().join('+');
-            if (recipes[key]) {
-                let results = recipes[key];
-                let isNew = results.some(r => !unlockedElements.includes(r));
-                if (isNew) {
-                    available.push({e1, e2, results});
-                }
-            }
+    const unlockedSet = new Set(unlockedElements);
+    const available = [];
+    for (const key in recipes) {
+        const parts = key.split('+');
+        if (!parts.every(p => unlockedSet.has(p))) continue;
+        const results = recipes[key];
+        if (results.some(r => elementsDB[r] && !unlockedSet.has(r))) {
+            available.push({ parts, results });
         }
     }
     return available;
@@ -2258,9 +2347,8 @@ function giveComboHint() {
     let available = getAvailableRecipes();
     if(available.length === 0) return showMessage("¡Ya descubriste todo lo posible con tu inventario actual!", "gold");
     let randomRecipe = available[Math.floor(Math.random() * available.length)];
-    let cat1 = categoryNames[elementsDB[randomRecipe.e1].group];
-    let cat2 = categoryNames[elementsDB[randomRecipe.e2].group];
-    showMessage(`🧩 Pista: Combina algo de "${cat1}" con algo de "${cat2}".`, "#fca311");
+    const cats = randomRecipe.parts.map(p => `"${categoryNames[elementsDB[p].group]}"`);
+    showMessage(`🧩 Pista: Combina algo de ${cats.join(" con algo de ")}.`, "#fca311");
     startHintCooldown("grupo");
 }
 
@@ -2492,11 +2580,12 @@ function cerrarFx() {
 }
 
 function combineElements() {
-    if (!slot1 || !slot2) {
-        showMessage("Necesitas 2 elementos para combinar.", "orange");
+    const seleccionados = [slot1, slot2, slot3].filter(Boolean);
+    if (seleccionados.length < 2) {
+        showMessage("Necesitas al menos 2 elementos para combinar.", "orange");
         return;
     }
-    const combinationKey = [slot1, slot2].sort().join('+');
+    const combinationKey = seleccionados.sort().join('+');
     const results = (recipes[combinationKey] || []).filter(r => elementsDB[r]);
     if (results.length > 0) {
         let discoveredNew = false;
@@ -2534,6 +2623,7 @@ function combineElements() {
     }
     slot1 = null;
     slot2 = null;
+    slot3 = null;
     updateSlots();
 }
 
@@ -2543,25 +2633,33 @@ function slotBajoPunto(x, y) {
     if (!el) return 0;
     if (el.closest('#slot1')) return 1;
     if (el.closest('#slot2')) return 2;
+    if (el.closest('#slot3')) return 3;
     return 0;
+}
+
+function ponerEnSlot(idx, elementId) {
+    if (idx === 1) slot1 = elementId;
+    else if (idx === 2) slot2 = elementId;
+    else if (idx === 3) slot3 = elementId;
+    updateSlots();
 }
 
 function marcarSlotBajo(x, y) {
     const idx = slotBajoPunto(x, y);
-    document.getElementById('slot1').classList.toggle('drag-over', idx === 1);
-    document.getElementById('slot2').classList.toggle('drag-over', idx === 2);
+    [1, 2, 3].forEach(n =>
+        document.getElementById('slot' + n).classList.toggle('drag-over', idx === n));
 }
 
 function limpiarGestoTactil(btn) {
     if (btn._touch && btn._touch.ghost) btn._touch.ghost.remove();
     btn.classList.remove('drag-ready');
     btn._touch = null;
-    document.getElementById('slot1').classList.remove('drag-over');
-    document.getElementById('slot2').classList.remove('drag-over');
+    [1, 2, 3].forEach(n =>
+        document.getElementById('slot' + n).classList.remove('drag-over'));
 }
 
 // === ARRASTRAR Y SOLTAR EN LOS SLOTS ===
-["slot1", "slot2"].forEach((slotId, idx) => {
+["slot1", "slot2", "slot3"].forEach((slotId, idx) => {
     const div = document.getElementById(slotId);
     div.setAttribute('role', 'button');
     div.setAttribute('tabindex', '0');
@@ -2583,8 +2681,7 @@ function limpiarGestoTactil(btn) {
         div.classList.remove('drag-over');
         const id = e.dataTransfer.getData('text/plain');
         if (elementsDB[id] && unlockedElements.includes(id)) {
-            if (idx === 0) slot1 = id; else slot2 = id;
-            updateSlots();
+            ponerEnSlot(idx + 1, id);
         }
     };
 });
@@ -2644,8 +2741,8 @@ function showEncDetail(elementId) {
     let creadoHTML = "";
     let creadoOcultas = 0;
     (recipesByResult[elementId] || []).forEach(r => {
-        if (conocido(r.a) && conocido(r.b)) {
-            creadoHTML += `<div class="enc-recipe">${encChip(r.a)} + ${encChip(r.b)}</div>`;
+        if (r.parts.every(conocido)) {
+            creadoHTML += `<div class="enc-recipe">${r.parts.map(encChip).join(' + ')}</div>`;
         } else {
             creadoOcultas++;
         }
@@ -2663,10 +2760,11 @@ function showEncDetail(elementId) {
     let usosHTML = "";
     let usosOcultos = 0;
     (recipesByIngredient[elementId] || []).forEach(r => {
-        const otro = r.a === elementId ? r.b : r.a;
-        if (conocido(otro) && r.results.every(conocido)) {
+        const otros = otrosIngredientes(r.parts, elementId);
+        if (otros.every(conocido) && r.results.every(conocido)) {
+            const ingredientes = [encChip(elementId), ...otros.map(encChip)].join(' + ');
             const resultados = r.results.map(id => encChip(id)).join(' y ');
-            usosHTML += `<div class="enc-recipe">${encChip(elementId)} + ${encChip(otro)} = ${resultados}</div>`;
+            usosHTML += `<div class="enc-recipe">${ingredientes} = ${resultados}</div>`;
         } else {
             usosOcultos++;
         }
