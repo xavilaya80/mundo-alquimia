@@ -780,3 +780,258 @@ Marioneta animada = Madera + Vida + Herramienta
 Trineo de Papá Noel = Nieve + Madera + Humano
 Basilisco = Humano + Bestia + Piedra O Veneno + Piedra + Lagarto (según la versión)
 Pinocchio = Madera + Vida + Herramientas
+
+# MARVEL
+Humano + Araña Radiactiva = Spider-Man
+Multimillonario + Armadura = Iron Man
+Soldado + Suero = Capitán América
+Científico + Radiación Gamma = Hulk
+Dios + Martillo = Thor
+Soldado + Espionaje = Black Widow
+Humano + Arco y Flecha = Hawkeye
+Mutante + Metal = Wolverine
+Soldado + Regeneración = Deadpool
+Médico + Magia = Doctor Strange
+Rey + Vibranium = Black Panther
+Ladrón + Traje = Ant-Man
+Mutante + Magia = Scarlet Witch
+Abogado + Ceguera = Daredevil
+Soldado + Venganza = Punisher
+Alien + Guantelete = Thanos
+Dios + Engaño = Loki
+Multimillonario + Locura = Green Goblin
+Científico + Tentáculos = Doctor Octopus
+Periodista + Simbionte = Venom
+Mutante + Magnetismo = Magneto
+Monarca + Magia = Doctor Doom
+Soldado + Odio = Red Skull
+Asesino + Simbionte = Carnage
+Espacio + Hambre = Galactus
+
+# DC COMICS
+Multimillonario + Murciélago = Batman
+Alien + Sol = Superman
+Amazona + Lazo = Wonder Woman
+Científico + Rayo = The Flash
+Piloto + Anillo = Green Lantern
+Rey + Océano = Aquaman
+Atleta + Tecnología Alienígena = Cyborg
+Huérfano + Acróbata = Robin
+Robin + Independencia = Nightwing
+Multimillonario + Arco y Flecha = Green Arrow
+Niño + Rayo = Shazam
+Alien + Telepatía = Martian Manhunter
+Detective + Demonios = John Constantine
+Payaso + Químicos = The Joker
+Psiquiatra + Obsesión = Harley Quinn
+Multimillonario + Envidia = Lex Luthor
+Dios + Tiranía = Darkseid
+Criminal + Acertijos = Riddler
+Mafioso + Paraguas = Penguin
+Fiscal + Ácido = Two-Face
+Ladrona + Látigo = Catwoman
+Prisionero + Droga = Bane
+Botánica + Toxina = Poison Ivy
+Mercenario + Suero = Deathstroke
+Científico + Odio = Reverse-Flash
+
+# ==============================================================
+# EPISODIO: SCI-FI & FANTASÍA ÉPICA (MOVIES & SAGAS)
+# ==============================================================
+
+# ELEMENTOS BÁSICOS (INICIALES)
+# Humano, Fuego, Tierra, Agua, Aire, Metal, Papel, Energía
+
+# --------------------------------------------------------------
+# TIER 1: NATURALEZA, MATERIA Y CONCEPTOS PRIMORDIALES
+# --------------------------------------------------------------
+Agua + Tierra = Planta
+Planta + Humano = Madera
+Fuego + Aire = Calor
+Aire + Energía = Electricidad
+Tierra + Fuego = Lava
+Lava + Aire = Piedra
+Metal + Fuego = Forja
+Humano + Papel = Conocimiento
+Conocimiento + Humano = Ciencia
+Humano + Piedra = Cueva
+Humano + Mente = Conciencia
+Aire + Vacío = Cielo
+Cielo + Noche = Espacio
+Espacio + Energía = Gravedad
+Espacio + Luz = Estrella
+Estrella + Gravedad = Agujero Negro
+Materia + Tiempo = Relatividad
+Espacio + Vida = Alien
+Humano + Espacio = Astronauta
+
+# --------------------------------------------------------------
+# TIER 2: PILARES MÍSTICOS, TECNOLÓGICOS Y RAZAS
+# --------------------------------------------------------------
+# Magia y Misticismo
+Humano + Energía = Espíritu
+Espíritu + Mente = Magia
+Magia + Madera = Varita
+Magia + Forja = Artefacto Místico
+Magia + Conocimiento = Hechizo
+Magia + Oscuridad = Magia Oscura
+Magia + Humano = Mago
+Espíritu + Espacio = La Fuerza
+
+# Ciencia Ficción y Espacio
+Ciencia + Metal = Tecnología
+Tecnología + Metal = Robot
+Robot + Conciencia = Androide
+Tecnología + Espacio = Nave Espacial
+Nave Espacial + Energía = Salto Hiperespacial
+Tecnología + Conexión = Red Neuronal / Conexión Mental
+Tecnología + Medicina = Clonación
+Tecnología + Ojo = Realidad Virtual
+
+# Razas y Arquetipos
+Humano + Magia Ancestral = Elfo
+Humano + Tierra Profunda = Enano
+Humano + Pacifismo = Hobbit
+Humano + Corrupción = Orco
+Luz + La Fuerza = Jedi
+Oscuridad + La Fuerza = Sith
+Humano + Guerra = Soldado
+Humano + Desierto = Nómada
+
+# --------------------------------------------------------------
+# TIER 3: ICONOGRAFÍA Y ELEMENTOS CLAVE POR UNIVERSO
+# --------------------------------------------------------------
+
+# El Señor de los Anillos (LOTR)
+Forja + Magia Oscura = Anillo Único
+Lava + Tierra = Volcán (Monte del Destino)
+Piedra + Ojo Místico = Palantír
+Orco + Guerra = Uruk-hai
+Fuego + Demonio = Balrog
+
+# Star Wars
+Energía + Espada = Sable de Luz
+Sable de Luz + Jedi = Caballero Jedi
+Sable de Luz + Sith = Lord Sith
+Nave Espacial + Láser Gigante = Estrella de la Muerte
+Armadura + Soldado = Stormtrooper
+
+# Harry Potter
+Colegio + Magia = Hogwarts
+Varita + Hechizo Prohibido = Maleficio Imperdonable (Avada Kedavra)
+Magia + Muerte = Horrocrux
+Escoba + Hechizo de Vuelo = Escoba Voladora
+Caballo + Alas Místicas = Hipogrifo
+Mago + Oscuridad = Mortífago
+
+# Star Trek
+Nave Espacial + Exploración = USS Enterprise
+Tecnología + Diplomacia = Federación Unida de Planetas
+Humano + Lógica Pura = Vulcano
+Tecnología + Asimilación = Borg
+Tecnología + Desmaterialización = Teletransporte
+
+# Interstellar
+Agujero Negro + Tiempo = Dilatación Temporal
+Gravedad + Ecuación = Manipulación Gravitacional
+Tiempo + Dimensión Extra = Teseracto
+Astronauta + Planeta Océano = Ola Gigante
+Robot + Sarcasmo Militar = TARS
+
+# Dune
+Desierto + Especia = Arrakis
+Gusano Gigante + Desierto = Shai-Hulud
+Especia + Expansión Mental = Presciencia (Viaje Espacial)
+Nómada + Desierto = Fremen
+Humano + Genética = Bene Gesserit
+
+# The Matrix
+Realidad Virtual + Control = Matrix
+Humano + Desconexión = Resistencia
+Pastilla + Verdad = Píldora Roja
+Androide + Vigilancia = Agente Smith
+
+# Blade Runner
+Androide + Humano Artificial = Replicante
+Detective + Replicante = Blade Runner
+Ciudad + Distopía = Cyberpunk
+
+# 2001: Odisea del Espacio
+Monolito + Evolución = Inteligencia Cósmica
+Computadora + Ojo Rojo = HAL 9000
+Astronauta + Feto Astral = Star Child
+
+# Alien & Predator
+Alien + Parásito = Xenomorfo
+Alien + Código de Honor = Depredador (Yautja)
+Nave Espacial + Aislamiento = Nostromo
+
+# Volver al Futuro (Back to the Future)
+Auto + Energía Temporal = Delorean
+Tiempo + Velocidad (88 mph) = Viaje en el Tiempo
+Viaje en el Tiempo + Tragedia = Paradoja Temporal
+
+# Avatar (James Cameron)
+Planeta Selvático + Conexión Vital = Pandora
+Humano + Híbrido Alien = Avatar
+Nativo Azul + Naturaleza = Na'vi
+
+# --------------------------------------------------------------
+# TIER 4: PERSONAJES Y ENTIDADES CULMINANTES
+# --------------------------------------------------------------
+
+# El Señor de los Anillos
+Mago + Luz = Gandalf
+Hobbit + Anillo Único = Frodo Bolsón
+Hobbit + Obsesión = Gollum
+Magia Oscura + Ojo = Sauron
+Humano + Destino Real = Aragorn
+
+# Star Wars
+Jedi + Caída = Darth Vader
+Caballero Jedi + Desierto = Luke Skywalker
+Sith + Tiranía Galáctica = Emperador Palpatine
+Alien + Maestría de la Fuerza = Yoda
+Contrabandista + Nave Espacial = Han Solo
+
+# Harry Potter
+Huérfano + Cicatriz de Rayo = Harry Potter
+Mago + Horrocrux = Lord Voldemort
+Mago + Sabiduría = Albus Dumbledore
+Mago + Ambigüedad = Severus Snape
+
+# Star Trek
+USS Enterprise + Liderazgo = Capitán Kirk
+Vulcano + USS Enterprise = Spock
+Borg + Colectivo = Reina Borg
+
+# Interstellar
+Astronauta + Dilatación Temporal = Cooper
+Teseracto + Biblioteca = Amor a través del Tiempo
+
+# Dune
+Fremen + Presciencia = Paul Atreides
+Bene Gesserit + Tiranía = Barón Harkonnen
+
+# The Matrix
+Elegido + Matrix = Neo
+Resistencia + Fe = Morfeo
+Resistencia + Destino = Trinity
+
+# Blade Runner
+Replicante + Filosofía en la Lluvia = Roy Batty
+Blade Runner + Dilema Existencial = Rick Deckard
+
+# 2001: Odisea del Espacio
+Astronauta + HAL 9000 = Dave Bowman
+
+# Alien
+Soldado + Supervivencia = Ellen Ripley
+
+# Volver al Futuro
+Científico Loco + Delorean = Doc Brown
+Adolescente + Viaje en el Tiempo = Marty McFly
+
+# Avatar
+Soldado + Avatar = Jake Sully
+Na'vi + Espíritu de la Selva = Neytiri
