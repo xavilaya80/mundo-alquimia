@@ -1035,3 +1035,132 @@ Adolescente + Viaje en el Tiempo = Marty McFly
 # Avatar
 Soldado + Avatar = Jake Sully
 Na'vi + Espíritu de la Selva = Neytiri
+
+# ==============================================================
+# EPISODIO: LEYENDAS DEL DEPORTE MUNDIAL (COMPLETO)
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 0: ELEMENTOS BÁSICOS (INICIALES)
+# --------------------------------------------------------------
+# Humano, Tierra, Agua, Aire, Fuego, Metal, Madera, Dinero
+
+# --------------------------------------------------------------
+# TIER 1: CONCEPTOS BÁSICOS, FÍSICOS Y HERRAMIENTAS
+# --------------------------------------------------------------
+Humano + Tierra = Resistencia
+Humano + Fuego = Pasión
+Humano + Aire = Velocidad
+Humano + Madera = Bastón / Palo
+Metal + Fuego = Motor
+Madera + Cuerda = Raqueta
+Aire + Cuero = Balón
+Tierra + Líneas = Cancha
+Agua + Humano = Natación
+Tierra + Frío = Nieve
+Agua + Frío = Hielo
+Hielo + Cuchilla = Patines
+Humano + Bicicleta = Ciclismo
+Humano + Pista = Atletismo
+Humano + Guantes = Boxeo
+Humano + Lucha = Artes Marciales Mixtas (MMA)
+Humano + Filosofía = Artes Marciales
+Motor + Pista = Automovilismo
+Balón + Pie = Fútbol
+Balón + Cesta = Baloncesto
+Balón + Raqueta = Tenis
+Balón + Bate = Béisbol
+Balón + Hielo = Hockey sobre Hielo
+Agua + Tabla = Surf
+Balón + Armadura = Fútbol Americano
+Palo + Hoyo = Golf
+Gimnasio + Flexibilidad = Gimnasia Artística
+
+# --------------------------------------------------------------
+# TIER 2: ATRIBUTOS, TÁCTICAS Y CONCEPTOS DISTINTIVOS
+# --------------------------------------------------------------
+Pasión + Competencia = Victoria
+Victoria + Dinero = Trofeo
+Trofeo + Historia = Legado
+Humano + Legado = Leyenda / GOAT
+Velocidad + Precisión = Récord Mundial
+Fútbol + Gloria = Copa del Mundo
+Baloncesto + Anillo = Campeonato NBA
+Automovilismo + Lluvia = Pole Position
+Tenis + Corona = Grand Slam
+
+# Atributos Específicos de Fútbol
+Fútbol + Estrategia = Fútbol Total
+Fútbol Total + Pase Corto = Tiki-Taka
+Fútbol + Sonrisa / Magia = Jogo Bonito
+Fútbol + Clase Pura = Elegancia
+Fútbol + Potencia / Fenómeno = Regate Imparable
+
+# Atributos Específicos de Baloncesto
+Baloncesto + Fuerza Bruta = Destrucción de Tableros
+Baloncesto + Récord Inalcanzable = Partido de 100 Puntos
+Baloncesto + Distancia Extrema = Triple Infinito
+
+# Atributos Específicos de Combate y Motor
+MMA + Showman / Doble Cinturón = Notorious
+Boxeo + Defensa Perfecta = Invicto 50-0
+Artes Marciales + Comedia / Acrobacia = Cine de Acción Cómico
+Artes Marciales + Patada Giratoria = Leyenda Indestructible
+Automovilismo + Astucia / Resistencia = El Nano (Magic)
+
+# --------------------------------------------------------------
+# TIER 3: LEYENDAS Y DEPORTISTAS ICÓNICOS
+# --------------------------------------------------------------
+
+# Fútbol
+Fútbol + Corona = Pelé
+Fútbol + Mano de Dios = Diego Maradona
+Fútbol + Precisión Genial = Lionel Messi
+Fútbol + Disciplina Implacable = Cristiano Ronaldo
+Fútbol + Elegancia = Zinedine Zidane
+Fútbol + Jogo Bonito = Ronaldinho
+Fútbol + Regate Imparable = Ronaldo Nazário
+Fútbol + Fútbol Total = Johan Cruyff
+
+# Baloncesto
+Baloncesto + Vuelo = Michael Jordan
+Baloncesto + Mentalidad Mamba = Kobe Bryant
+Baloncesto + Longevidad = LeBron James
+Baloncesto + Destrucción de Tableros = Shaquille O'Neal
+Baloncesto + Partido de 100 Puntos = Wilt Chamberlain
+Baloncesto + Triple Infinito = Stephen Curry
+
+# Deportes de Combate y Artes Marciales
+Boxeo + Rima / Poesía = Muhammad Ali
+Boxeo + Ferocidad = Mike Tyson
+Boxeo + Defensa Perfecta = Floyd Mayweather
+MMA + Legado Ruso / Invicto = Khabib Nurmagomedov
+MMA + Showman = Conor McGregor
+Artes Marciales + Filosofía = Bruce Lee
+Artes Marciales + Cine de Acción Cómico = Jackie Chan
+Artes Marciales + Leyenda Indestructible = Chuck Norris
+
+# Automovilismo (Fórmula 1)
+Automovilismo + Lluvia Mística = Ayrton Senna
+Automovilismo + Dominio Rojo = Michael Schumacher
+Automovilismo + Récords Modernos = Lewis Hamilton
+Automovilismo + Astucia = Fernando Alonso
+
+# Tenis
+Tenis + Arcilla = Rafael Nadal
+Tenis + Elegancia = Roger Federer
+Tenis + Grand Slams = Novak Djokovic
+
+# Atletismo y Natación
+Atletismo + Relámpago = Usain Bolt
+Natación + Récord Olímpico = Michael Phelps
+
+# Otros Deportes Clásicos
+Golf + Dominio Rojo = Tiger Woods
+Béisbol + Jonrón Histórico = Babe Ruth
+Hockey sobre Hielo + El Gran Número 99 = Wayne Gretzky
+Ciclismo + Caníbal = Eddy Merckx
+Gimnasia Artística + Diez Perfecto = Nadia Comăneci
+Gimnasia Artística + Potencia / Oro = Simone Biles
+Surf + Olas Gigantes = Kelly Slater
+Fútbol Americano + Anillos de Campeón = Tom Brady
