@@ -2032,7 +2032,7 @@ function renderInventory() {
             const el = elementsDB[elementId];
             const btn = document.createElement('div');
             btn.className = 'element';
-            btn.innerHTML = `${el.emoji} ${el.name}`;
+            btn.innerHTML = `<span class="el-emoji">${el.emoji}</span><span class="el-nombre">${el.name}</span>`;
             let tooltip = "Clic/Enter: seleccionar · Arrastrar a un espacio · Clic derecho o tecla E: enciclopedia";
             if (hasNewCombos(elementId, unlockedSet)) {
                 btn.classList.add('has-combos');
@@ -2437,34 +2437,58 @@ function openAchievements() {
     document.getElementById('encBody').scrollTop = 0;
 }
 
-// === ANIMACIÓN DE DESCUBRIMIENTO ===
+// === REVELACIÓN DIVINA (descubrimiento estilo Doodle God) ===
+const CITAS = [
+    "«Todo fluye, nada permanece.» — Heráclito",
+    "«Como es arriba, es abajo.» — Hermes Trismegisto",
+    "«El agua es el principio de todas las cosas.» — Tales de Mileto",
+    "«Todo está lleno de dioses.» — Tales de Mileto",
+    "«La naturaleza no hace nada en vano.» — Aristóteles",
+    "«De la nada, nada sale.» — Lucrecio",
+    "«La dosis hace el veneno.» — Paracelso",
+    "«Conócete a ti mismo.» — Oráculo de Delfos",
+    "«El universo es cambio; la vida, opinión.» — Marco Aurelio",
+    "«En cada cosa hay una parte de todo.» — Anaxágoras",
+    "«El fuego vive la muerte del aire, y el aire la del fuego.» — Heráclito",
+    "«Nada es; todo deviene.» — Heráclito",
+    "«El mundo es un ser viviente.» — Platón",
+    "«El amor y la discordia mueven los elementos.» — Empédocles",
+    "«Lo seco se humedece, lo húmedo se seca.» — Heráclito",
+    "«El sol es nuevo cada día.» — Heráclito"
+];
+
+let fxCola = [];
+let fxActivo = false;
+
 function playDiscoveryFx(newIds) {
-    const fx = document.getElementById('discoveryFx');
-    fx.innerHTML = '';
-    newIds.forEach((id, i) => {
-        const el = elementsDB[id];
-        const card = document.createElement('div');
-        card.className = 'discovery-card';
-        card.style.animationDelay = `${i * 0.3}s`;
-        card.innerHTML = `
-            <div class="dc-label">¡Nuevo!</div>
-            <div class="dc-emoji">${el.emoji}</div>
-            <div class="dc-name">${el.name}</div>
-        `;
-        for (let p = 0; p < 12; p++) {
-            const spark = document.createElement('span');
-            spark.className = 'spark';
-            const angle = (Math.PI * 2 * p) / 12 + Math.random() * 0.5;
-            const dist = 70 + Math.random() * 60;
-            spark.style.setProperty('--dx', `${Math.cos(angle) * dist}px`);
-            spark.style.setProperty('--dy', `${Math.sin(angle) * dist}px`);
-            spark.style.animationDelay = card.style.animationDelay;
-            card.appendChild(spark);
-        }
-        fx.appendChild(card);
-    });
-    clearTimeout(playDiscoveryFx._timer);
-    playDiscoveryFx._timer = setTimeout(() => { fx.innerHTML = ''; }, 1700 + newIds.length * 300);
+    fxCola.push(...newIds);
+    procesarFxCola();
+}
+
+function procesarFxCola() {
+    if (fxActivo || fxCola.length === 0) return;
+    fxActivo = true;
+    const el = elementsDB[fxCola.shift()];
+    const cita = CITAS[Math.floor(Math.random() * CITAS.length)];
+    document.getElementById('discoveryFx').innerHTML = `
+        <div class="dg-overlay" onclick="cerrarFx()" title="Toca para continuar">
+            <div class="dg-rays"></div>
+            <div class="dg-flash"></div>
+            <div class="dg-centro">
+                <div class="dg-emoji">${el.emoji}</div>
+                <div class="dg-titulo">Elemento descubierto</div>
+                <div class="dg-nombre">${el.name}</div>
+                <div class="dg-cita">${cita}</div>
+            </div>
+        </div>`;
+    procesarFxCola._timer = setTimeout(cerrarFx, 2400);
+}
+
+function cerrarFx() {
+    clearTimeout(procesarFxCola._timer);
+    document.getElementById('discoveryFx').innerHTML = '';
+    fxActivo = false;
+    procesarFxCola();
 }
 
 function combineElements() {
