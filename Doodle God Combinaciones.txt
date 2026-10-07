@@ -1601,3 +1601,83 @@ Nintendo Wii + Plataformas Retro de Gorilas = Donkey Kong Country Returns
 Nintendo Wii + Pincel Mágico y Pintura = Epic Mickey
 Nintendo Wii + Asesino Otaku y Katana Láser = No More Heroes
 
+# ==============================================================
+# EXPANSIÓN: GENERACIONES PS3, PS4, XBOX CLÁSICA Y XBOX 360
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 1: HARDWARE Y FORMATOS ESPECÍFICOS
+# --------------------------------------------------------------
+Disco DVD + Láser Azul = Disco Blu-ray
+Microchip + Arquitectura Celular = Procesador Cell Broadband
+Consola + Conexión Online Obligatoria = Xbox Live
+Mando + Gatillos Ergonómicos = Mando Duke / S-Controller
+Mando + Sensor de Giroscopio = Sixaxis / DualShock 3
+Mando + Panel Táctil y Barra de Luz = DualShock 4
+Cámara + Sensor de Movimiento Corporal = Kinect
+Consola + Falla Térmica Legendaria = Luces Rojas de la Muerte (RROD)
+
+# --------------------------------------------------------------
+# TIER 2: LAS CONSOLAS
+# --------------------------------------------------------------
+# Generación de los 128 Bits (Microsoft)
+Procesador PC + Disco DVD + Disco Duro Integrado = Xbox Clásica
+
+# Generación HD / Séptima Generación
+Procesador Cell + Disco Blu-ray + DualShock 3 = PlayStation 3 (PS3)
+Xbox Live + Disco DVD + Mando Blanco = Xbox 360
+
+# Octava Generación
+Disco Blu-ray + Arquitectura x86 + DualShock 4 = PlayStation 4 (PS4)
+
+# --------------------------------------------------------------
+# TIER 3: TOP JUEGOS CLÁSICOS POR CONSOLA
+# --------------------------------------------------------------
+
+# Xbox Clásica
+Xbox Clásica + Soldado Espartano y Campaña Épica = Halo: Combat Evolved
+Xbox Clásica + Multijugador en Línea Revolucionario = Halo 2
+Xbox Clásica + RPG de la Antigua República = Star Wars: Knights of the Old Republic (KOTOR)
+Xbox Clásica + Ninja Mortal y Alta Dificultad = Ninja Gaiden Black
+Xbox Clásica + Leyenda RPG Británica = Fable
+Xbox Clásica + Sigilo Espía Táctico = Tom Clancy's Splinter Cell
+Xbox Clásica + Carreras de Contacto Urbano = Project Gotham Racing 2
+Xbox Clásica + Peleas 3D y Gráficos Punta = Dead or Alive 3
+Xbox Clásica + Jetpack y Grafitis Futuristas = Jet Set Radio Future
+Xbox Clásica + Mercenarios de Guerra Callejera = The Chronicles of Riddick: Escape from Butcher Bay
+
+# Xbox 360
+Xbox 360 + Motosierra en el Rifle y Coberturas = Gears of War / Gears of War 2
+Xbox 360 + Conclusión de la Trilogía del Jefe Maestro = Halo 3
+Xbox 360 + Odisea Espacial RPG = Mass Effect / Mass Effect 2
+Xbox 360 + Fantasía Occidental Infinita = The Elder Scrolls V: Skyrim
+Xbox 360 + Distopía Submarina y Plásmidos = BioShock
+Xbox 360 + Carreras en Carreteras Abiertas = Forza Horizon
+Xbox 360 + Escritor Perdido en la Niebla = Alan Wake
+Xbox 360 + Zombis en Centro Comercial = Dead Rising
+Xbox 360 + Héroe y Moralidad en Albión = Fable II
+Xbox 360 + Guerra Moderna Revolucionaria = Call of Duty 4: Modern Warfare
+
+# PlayStation 3 (PS3)
+PS3 + Arqueólogo Aventurero y Tesoros = Uncharted 2: Among Thieves
+PS3 + Apocalipsis de Cordyceps y Contrabandista = The Last of Us
+PS3 + Venganza Brutal en el Monte Olimpo = God of War III
+PS3 + Detective, Lluvia y Asesino del Origami = Heavy Rain
+PS3 + Muñeco de Trapo y Creación de Niveles = LittleBigPlanet
+PS3 + Ojo Hacker y San Francisco Subterráneo = inFAMOUS / inFAMOUS 2
+PS3 + Invasión Quimera en Inglaterra = Resistance: Fall of Man
+PS3 + Guerra Futurista Contra Helghast = Killzone 2
+PS3 + Rol Oscuro y Dificultad Despiadada = Demon's Souls
+PS3 + Espionaje Senil y Micromáquinas = Metal Gear Solid 4: Guns of the Patriots
+
+# PlayStation 4 (PS4)
+PS4 + Cazador Victoriano y Pesadilla = Bloodborne
+PS4 + Padre Nórdico y Niño = God of War (2018)
+PS4 + Trepamuros en Manhattan = Marvel's Spider-Man
+PS4 + Guerrera Cazadora y Dinosaurios Robot = Horizon Zero Dawn
+PS4 + Samurái Errante y Viento Guía = Ghost of Tsushima
+PS4 + Ladrón Retirado y Último Golpe = Uncharted 4: A Thief's End
+PS4 + Venganza Desoladora en Seattle = The Last of Us Part II
+PS4 + Repartidor Postal en Mundo Roto = Death Stranding
+PS4 + Simulación de Vida Estudiantil y Ladrones = Persona 5 / Persona 5 Royal
+PS4 + Androides con Sentimientos en Detroit = Detroit: Become Human

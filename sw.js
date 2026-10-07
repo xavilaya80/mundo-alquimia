@@ -1,6 +1,6 @@
 // Service Worker de Mundo Alquimia: permite jugar sin conexión.
 // Sube la versión del caché cada vez que cambies archivos del juego.
-const CACHE = "mundo-alquimia-v7";
+const CACHE = "mundo-alquimia-v8";
 const ARCHIVOS = [
     ".",
     "index.html",
