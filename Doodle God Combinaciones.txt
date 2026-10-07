@@ -1164,3 +1164,440 @@ Gimnasia Artística + Diez Perfecto = Nadia Comăneci
 Gimnasia Artística + Potencia / Oro = Simone Biles
 Surf + Olas Gigantes = Kelly Slater
 Fútbol Americano + Anillos de Campeón = Tom Brady
+
+# ==============================================================
+# EPISODIO: GRANDES HITOS Y ACONTECIMIENTOS HISTÓRICOS
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 0: ELEMENTOS BÁSICOS (INICIALES)
+# --------------------------------------------------------------
+# Humano, Tierra, Fuego, Agua, Aire, Piedra, Metal, Madera
+
+# --------------------------------------------------------------
+# TIER 1: CIVILIZACIÓN, SOCIEDAD Y HERRAMIENTAS PRIMITIVAS
+# --------------------------------------------------------------
+Humano + Piedra = Herramienta de Piedra
+Herramienta de Piedra + Fuego = Control del Fuego
+Humano + Tierra = Agricultura
+Agricultura + Humano = Asentamiento
+Asentamiento + Asentamiento = Ciudad
+Ciudad + Leyes = Civilización
+Humano + Madera = Rueda
+Humano + Símbolo = Escritura
+Escritura + Arcilla = Leyes Escritas (Código de Hammurabi)
+Madera + Agua = Barco
+Metal + Fuego = Armas
+Humano + Creencia = Religión
+Ciudad + Expansión = Imperio
+
+# --------------------------------------------------------------
+# TIER 2: AVANCES MEDIEVALES, CIENTÍFICOS Y MODERNOS
+# --------------------------------------------------------------
+Fuego + Salitre = Pólvora
+Pólvora + Metal = Cañón
+Escritura + Mecánica = Imprenta
+Barco + Océano = Navegación Transoceánica
+Imperio + Guerra = Conquista
+Fuego + Agua = Vapor
+Vapor + Metal = Máquina de Vapor
+Máquina de Vapor + Fábrica = Revolución Industrial
+Civilización + Opresión = Tiranía
+Tiranía + Pueblo = Revolución
+Ciencia + Electricidad = Telecomunicación
+Pólvora + Odio = Trinchera
+Metal + Cielo = Avión
+Ciencia + Radiación = Energía Nuclear
+Energía Nuclear + Guerra = Bomba Atómica
+Cohete + Cielo = Carrera Espacial
+Telecomunicación + Red = Internet
+
+# --------------------------------------------------------------
+# TIER 3: HITOS DE LA ANTIGÜEDAD Y CLÁSICOS
+# --------------------------------------------------------------
+Piedra + Faraón = Pirámides de Giza
+Leyes Escritas + Babilonia = Código de Hammurabi
+Filosofía + Ciudad = Nacimiento de la Democracia (Atenas)
+Pólvora + Frontera = Gran Muralla China
+Imperio + Roma = Fundación del Imperio Romano
+Imperio Romano + Cristianismo = Edicto de Milán
+Imperio Romano + Decadencia = Caída de Roma
+Leyes + Monarquía = Carta Magna
+Navegación + Asentamiento = Expansión Vikinga
+
+# --------------------------------------------------------------
+# TIER 4: EDAD MODERNA, EXPLORACIÓN Y REVOLUCIONES
+# --------------------------------------------------------------
+Cañón + Muralla = Caída de Constantinopla
+Imprenta + Biblia = Revolución de la Imprenta de Gutenberg
+Navegación Transoceánica + Nuevo Mundo = Descubrimiento de América (1492)
+Religión + Disidencia = Reforma Protestante
+Ciencia + Observación = Revolución Científica
+Tiranía + Té / Impuestos = Independencia de los Estados Unidos (1776)
+Pueblo + Bastilla = Revolución Francesa (1789)
+Máquina de Vapor + Carbón = Primera Revolución Industrial
+Imperio + Europa = Guerras Napoleónicas
+
+# --------------------------------------------------------------
+# TIER 5: SIGLO XX Y ERA CONTEMPORÁNEA
+# --------------------------------------------------------------
+Barco + Iceberg = Hundimiento del Titanic (1912)
+Imperio + Asesinato = Primera Guerra Mundial (1914)
+Pueblo + Invierno = Revolución Rusa (1917)
+Dinero + Pánico = Caída de Wall Street (Crack del 29)
+Totalitarismo + Expansión = Segunda Guerra Mundial (1939)
+Playa + Invasión Aliada = Desembarco de Normandía (Día D)
+Bomba Atómica + Ciudad = Hiroshima y Nagasaki (1945)
+Capitalismo + Comunismo = Guerra Fría
+Ciudad + Separación = Construcción del Muro de Berlín (1961)
+Cohete + Luna = Alunizaje del Apolo 11 (1969)
+Reactor + Falla = Desastre de Chernóbil (1986)
+Muro de Berlín + Libertad = Caída del Muro de Berlín (1989)
+Computadora + Conexión Global = Creación de la World Wide Web (1991)
+
+# ==============================================================
+# EPISODIO: MITOLOGÍA, MUNDO INDÍGENA Y CIVILIZACIONES ANTIGUAS
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 0: ELEMENTOS BÁSICOS (INICIALES)
+# --------------------------------------------------------------
+# Humano, Tierra, Agua, Fuego, Aire, Piedra, Oro, Maíz
+
+# --------------------------------------------------------------
+# TIER 1: COSMOVISIÓN, CULTO Y FUNDAMENTOS
+# --------------------------------------------------------------
+Humano + Fuego = Ritual
+Humano + Tierra = Naturaleza
+Naturaleza + Espíritu = Cosmovisión
+Humano + Creencia = Dios
+Humano + Ritual = Chamán / Sacerdote
+Humano + Piedra = Templo
+Piedra + Símbolo = Jeroglífico
+Tierra + Montaña = Cordillera
+Tierra + Desierto = Oasis
+Agua + Río = Valle Fértil
+Humano + Cielo = Astronomía
+Humano + Muerte = Inframundo
+Muerte + Ritual = Momia
+Piedra + Astronomía = Observatorio Sagrado
+Piedra + Templo = Pirámide Escalonada
+Planta + Sagrado = Hoja de Coca / Peyote
+Tierra + Arcilla = Alfarería Ancestral
+Pájaro + Serpiente = Plumas Sagradas
+
+# --------------------------------------------------------------
+# TIER 2: AMÉRICA PRECOLOMBINA E INDÍGENA
+# --------------------------------------------------------------
+
+# Mesoamérica (Mayas y Mexicas/Aztecas)
+Maíz + Cosmovisión = Mito del Hombre de Maíz
+Pirámide Escalonada + Serpiente = Chichén Itzá
+Serpiente + Plumas Sagradas = Quetzalcóatl (Kukulkán)
+Sol + Sacrificio = Huitzilopochtli
+Agua + Templo = Tláloc
+Lago + Ciudad = Tenochtitlan
+Piedra + Sol = Calendario Solar Azteca
+Cacao + Agua = Xocolatl (Bebida de los Dioses)
+
+# Región Andina (Incas y Pueblos Andinos)
+Tierra + Respeto = Pachamama
+Sol + Dios Andino = Inti
+Cordillera + Imperio = Tahuantinsuyo
+Cordillera + Templo = Machu Picchu
+Cuerdas + Nudos = Quipu
+Oro + Rito = El Dorado
+Montaña + Sacrificio = Capac Cocha
+Río + Geoglifo = Líneas de Nazca
+
+# Pueblos Originarios del Cono Sur y Selva
+Chamán + Árbol Sagrado = Machi
+Árbol Sagrado + Ritual = Canelo Sagrado (Foye)
+Machi + Madera = Rehue
+Tierra + Serpiente Marina = Trentren Vilu y Caicai Vilu
+Canto + Pintura Corporal = Ceremonia Hain (Selk'nam)
+Selva + Respeto = Amazonía Sagrada
+Chamán + Selva = Ayahuasca
+
+# Pueblos Nativos de Norteamérica
+Tierra + Búfalo = Caza Sagrada
+Madera + Espíritu Animal = Tótem
+Espíritu + Viento = Thunderbird (Pájaro del Trueno)
+Humo + Ritual = Pipa de la Paz
+Ritual + Mente = Danza de los Espíritus
+
+# --------------------------------------------------------------
+# TIER 3: CIVILIZACIONES CLÁSICAS Y CUNA DE LA HUMANIDAD
+# --------------------------------------------------------------
+
+# Mesopotamia
+Valle Fértil + Arcilla = Cuna de la Civilización
+Templo + Altura = Zigurat
+Escritura + Héroe = Epopeya de Gilgamesh
+Inframundo + Diosa = Ishtar
+
+# Antiguo Egipto
+Río + Desierto = Río Nilo
+Río Nilo + Valle Fértil = Egipto Antiguo
+Faraón + Momia = Sarcófago
+Piedra + Sarcófago = Valle de los Reyes
+Sol + Halcón = Ra
+Inframundo + Balanza = Anubis
+Muerte + Juicio = Pesaje del Corazón
+Chacal + Desierto = Seth
+Templo + Enigma = Esfinge
+
+# Antigua Grecia y Roma
+Montaña + Rayo = Monte Olimpo
+Monte Olimpo + Dios = Zeus (Júpiter)
+Océano + Tridente = Poseidón (Neptuno)
+Inframundo + Perro de Tres Cabezas = Hades (Plutón)
+Mujer + Sabiduría = Atenea (Minerva)
+Guerra + Violencia = Ares (Marte)
+Piedra + Laberinto = Minotauro de Creta
+Fuego + Titán = Prometeo (El Regalo del Fuego)
+
+# Civilizaciones del Lejano Oriente
+Río Amarillo + Dragón = Dinastía Ancestral
+Cielo + Emperador = Mandato del Cielo
+Espíritu + Equilibrio = Yin y Yang
+Humano + Camino = Taoísmo
+Tierra + Meditación = Iluminación (Siddhartha / Buda)
+Monte Sagrado + Sol Naciente = Amaterasu (Sintoísmo)
+Guerrero + Honor Espiritual = Samurai
+
+# Tradición Nórdica y Celta
+Árbol Sagrado + Nueve Mundos = Yggdrasil
+Dios + Sabiduría = Odín
+Martillo + Trueno = Thor
+Destino + Guerra = Ragnarök
+Piedras Gigantes + Alineación Solar = Stonehenge
+Naturaleza + Encanto = Bosque Celta / Druida
+Espíritu + Niebla = Banshee
+
+# ==============================================================
+# EPISODIO: LA INDUSTRIA DE LOS VIDEOJUEGOS Y HARDWARE
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 0: ELEMENTOS BÁSICOS (INICIALES)
+# --------------------------------------------------------------
+# Humano, Silicio, Electricidad, Metal, Plástico, Pantalla, Dinero, Sonido
+
+# --------------------------------------------------------------
+# TIER 1: HARDWARE, COMPONENTES Y PERIFÉRICOS
+# --------------------------------------------------------------
+Silicio + Electricidad = Microchip
+Microchip + Metal = CPU (Procesador)
+Microchip + Pantalla = GPU (Tarjeta Gráfica)
+GPU + Rayos de Luz = Ray Tracing
+GPU + Inteligencia Artificial = DLSS / Escalado
+Microchip + Memoria Rápida = SSD NVMe
+Electricidad + Ventilador = Refrigeración Líquida
+CPU + GPU + Placa Base = PC Gamer
+Plástico + Botones = Mando (Controlador)
+Mando + Vibración Inmersiva = DualSense (Gatillos Hápticos)
+Mando + Pantalla Integrada = Consola Portátil
+Pantalla + Alta Frecuencia = Monitor 144Hz / OLED
+Sonido + Micrófono = Auriculares Headset
+
+# --------------------------------------------------------------
+# TIER 2: INDUSTRIA, PLATAFORMAS Y ECOSISTEMA
+# --------------------------------------------------------------
+Humano + Código = Programador
+Programador + Arte = Desarrollador de Videojuegos
+Desarrollador + Dinero = Estudio AAA
+Desarrollador + Libertad Creativa = Juego Indie
+Juego + Internet = Multijugador Online
+Juego + Competencia = eSports
+Juego + Transmisión = Streaming / Creador de Contenido
+Dinero + Catálogo Digital = Suscripción / Game Pass
+PC Gamer + Tienda Digital = Steam
+
+# --------------------------------------------------------------
+# TIER 3: LAS GRANDES CONSOLAS
+# --------------------------------------------------------------
+CPU + GPU + SSD NVMe = Arquitectura de Nueva Generación
+Arquitectura + Marca Azul = PlayStation 5
+Arquitectura + Marca Verde = Xbox Series X
+Consola Portátil + Híbrida = Nintendo Switch
+Consola Portátil + Steam = Steam Deck
+Historia + Cartucho = Consola Retro (NES / PS1)
+
+# --------------------------------------------------------------
+# TIER 4: TOP EXCLUSIVOS POR PLATAFORMA
+# --------------------------------------------------------------
+
+# Top Exclusivos PlayStation (Sony)
+PlayStation 5 + Hacha Leviatán = God of War Ragnarök
+PlayStation 5 + Telaraña Simbiótica = Marvel's Spider-Man 2
+PlayStation 5 + Hongo Parásito = The Last of Us Part I / II
+PlayStation 5 + Dinosaurios Mecánicos = Horizon Forbidden West
+PlayStation 5 + Samurái Fantasma = Ghost of Tsushima
+PlayStation 5 + Sangre Victoriana = Bloodborne
+PlayStation 5 + Simulador Real de Conducción = Gran Turismo 7
+PlayStation 5 + Salto Dimensional = Ratchet & Clank: Rift Apart
+PlayStation 5 + Roguelike Espacial = Returnal
+PlayStation 5 + Plataformas de Nueva Generación = Astro Bot
+
+# Top Exclusivos Nintendo
+Nintendo Switch + Espada Maestra = The Legend of Zelda: Tears of the Kingdom
+Nintendo Switch + Reino Champiñón 3D = Super Mario Odyssey
+Nintendo Switch + Carreras y Caparazón Azul = Mario Kart 8 Deluxe
+Nintendo Switch + Arena de Peleas Crossover = Super Smash Bros. Ultimate
+Nintendo Switch + Caza de Monstruos de Bolsillo = Pokémon Escarlata / Púrpura
+Nintendo Switch + Aventura Galáctica 2D = Metroid Dread
+Nintendo Switch + Vida en la Isla Desierta = Animal Crossing: New Horizons
+Nintendo Switch + Bruja de Umbra = Bayonetta 3
+Nintendo Switch + Táctica de Guerra Anime = Fire Emblem: Three Houses
+Nintendo Switch + Tinta y Calamares = Splatoon 3
+
+# Top Exclusivos Xbox / Microsoft
+Xbox Series X + Jefe Maestro / Anillo = Halo Infinite
+Xbox Series X + Festival de Carreras en México = Forza Horizon 5
+Xbox Series X + Exploración Espacial = Starfield
+Xbox Series X + Simulación del Planeta Tierra = Microsoft Flight Simulator
+Xbox Series X + Piratas en Alta Mar = Sea of Thieves
+Xbox Series X + Guerra contra los Locust = Gears 5
+Xbox Series X + Ritmo y Acción Cel Shading = Hi-Fi RUSH
+Xbox Series X + Psicología y Locura Nórdica = Senua's Saga: Hellblade II
+Xbox Series X + Manuscrito Iluminado Medieval = Pentiment
+Xbox Series X + Sobrevivencia en Miniatura = Grounded
+
+# --------------------------------------------------------------
+# TIER 5: TOP JUEGOS GLOBALES Y FENÓMENOS DEL MOMENTO
+# --------------------------------------------------------------
+Mundo Abierto + Árbol Áureo = Elden Ring
+Mundo Abierto + Salvaje Oeste = Red Dead Redemption 2
+Mundo Abierto + Ciudad Criminal = Grand Theft Auto V (GTA Online)
+Mundo Abierto + Cubos Infinitos = Minecraft
+Multijugador + Construcción Rápida = Fortnite
+PC Gamer + Disparos Tácticos 5v5 = Counter-Strike 2 / Valorant
+Estudio Indie + Inframundo Griego = Hades II
+Fantasía Rol + Dados D&D = Baldur's Gate 3
+Mitología China + Rey Mono = Black Myth: Wukong
+Fútbol Digital + Mercado de Sobres = EA Sports FC
+# ==============================================================
+# EXPANSIÓN: LA ERA DORADA DE CONSOLAS Y CLÁSICOS HISTÓRICOS
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 1: HARDWARE Y FORMATOS RETRO
+# --------------------------------------------------------------
+Plástico + Circuito = Cartucho Gris
+Cartucho Gris + Color = Cartucho Translúcido
+Plástico + Lente Láser = Disco DVD
+Disco DVD + Miniatura = MiniDVD
+Disco DVD + Carcasa Protectora = Disco UMD
+Pantalla + Dos Bisagras = Doble Pantalla (Pantalla Táctil + Stylus)
+Mando + Sensor de Movimiento = Wiimote + Nunchuk
+Mando + Asa de Transporte = Mando Ergonómico GameCube
+Memoria + Tarjeta Externa = Memory Card (8MB)
+
+# --------------------------------------------------------------
+# TIER 2: LAS CONSOLAS HISTÓRICAS
+# --------------------------------------------------------------
+# Portátiles Nintendo
+Pantalla Monocromática + Cartucho Gris = Game Boy Clásica
+Game Boy Clásica + Pantalla a Color = Game Boy Color (GBC)
+Game Boy Color + 32 Bits Horizontal = Game Boy Advance (GBA)
+GBA + Doble Pantalla = Nintendo DS
+
+# Portátil Sony
+Pantalla Panorámica + Disco UMD = PlayStation Portable (PSP)
+
+# Sobremesa Legendarias
+CPU Emocional + Disco DVD + Memory Card = PlayStation 2 (PS2)
+Procesador + MiniDVD + Mando Ergonómico = Nintendo GameCube
+GameCube + Sensor de Movimiento = Nintendo Wii
+
+# --------------------------------------------------------------
+# TIER 3: TOP JUEGOS CLÁSICOS POR CONSOLA
+# --------------------------------------------------------------
+
+# Game Boy Clásica
+Game Boy Clásica + Bloques que Caen = Tetris
+Game Boy Clásica + Monstruos de Bolsillo (Rojo/Azul) = Pokémon Red / Blue
+Game Boy Clásica + Isla Koholint = The Legend of Zelda: Link's Awakening
+Game Boy Clásica + Bola Rosa Traga-Enemigos = Kirby's Dream Land
+Game Boy Clásica + Fontanero en Sarasaland = Super Mario Land
+
+# Game Boy Color (GBC)
+Game Boy Color + Región Johto / Reloj Interno = Pokémon Gold / Silver / Crystal
+Game Boy Color + Estaciones y Tiempo = The Legend of Zelda: Oracle of Seasons / Ages
+Game Boy Color + Caza de Monstruos = Dragon Quest Monsters
+Game Boy Color + Wario Inmortal = Wario Land 3
+Game Boy Color + Metal Gear Portátil = Metal Gear Solid (Ghost Babel)
+
+# Game Boy Advance (GBA)
+Game Boy Advance + Región Hoenn = Pokémon Rubí / Zafiro / Esmeralda
+Game Boy Advance + Alquimia y Puzzles = Golden Sun
+Game Boy Advance + Cazarrecompensas Espacial 2D = Metroid Fusion
+Game Boy Advance + Vampiros y Látigo = Castlevania: Aria of Sorrow
+Game Boy Advance + Abogado Novato en Juicio = Phoenix Wright: Ace Attorney
+Game Boy Advance + Estrategia Militar por Turnos = Advance Wars
+Game Boy Advance + Espadas y Muerte Permanente = Fire Emblem: The Blazing Blade
+Game Boy Advance + Gorila y Sombrero = The Legend of Zelda: The Minish Cap
+Game Boy Advance + Plataformas Clásico Rehecho = Super Mario Advance 4: Super Mario Bros. 3
+Game Boy Advance + Microjuegos Frenéticos = WarioWare, Inc.: Mega Microgame$!
+
+# Nintendo DS
+Nintendo DS + Región Sinnoh = Pokémon Diamante / Perla / Platino
+Nintendo DS + Remake Johto Definitivo = Pokémon HeartGold / SoulSilver
+Nintendo DS + Castillo Drácula Táctil = Castlevania: Dawn of Sorrow
+Nintendo DS + Reloj y Mar = The Legend of Zelda: Phantom Hourglass
+Nintendo DS + Acertijos y Sombrero de Copa = Profesor Layton y la Villa del Misterio
+Nintendo DS + Salto en Plataformas 2D = New Super Mario Bros.
+Nintendo DS + Lanza de Tinta y Derrapes = Mario Kart DS
+Nintendo DS + Simulación Canina = Nintendogs
+Nintendo DS + Parkour y Fin del Mundo = Chrono Trigger DS
+Nintendo DS + Aventura Gráfica en Shibuya = The World Ends with You
+
+# PlayStation Portable (PSP)
+PSP + Espartano en Olimpo Portátil = God of War: Chains of Olympus / Ghost of Sparta
+PSP + Soldado de Primera Clase = Crisis Core: Final Fantasy VII
+PSP + Sigilo y Base Madre = Metal Gear Solid: Peace Walker
+PSP + Caza de Dragones Cooperativa = Monster Hunter Freedom Unite
+PSP + Peleas Épicas entre Héroes FF = Dissidia 012 Final Fantasy
+PSP + Carreras Antigravitatorias = WipEout Pure
+PSP + Soldado Espartano y Tácticas = SOCOM U.S. Navy SEALs: Fireteam Bravo
+PSP + Puzzles de Bloques con Ritmo = Lumines
+PSP + Ejército de Criaturas Rítmicas = Patapon
+PSP + Ciudad Libre y Mafias = Grand Theft Auto: Liberty City Stories
+
+# Nintendo GameCube
+GameCube + Océano y Cel Shading = The Legend of Zelda: The Wind Waker
+GameCube + Mansión Encantada y Aspiradora = Luigi's Mansion
+GameCube + Pistola Láser en Primera Persona = Metroid Prime
+GameCube + Pueblo Rural y Deudas con Mapache = Animal Crossing
+GameCube + Carreras Dobles por Parejas = Mario Kart: Double Dash!!
+GameCube + Combate Competitivo Frenético = Super Smash Bros. Melee
+GameCube + Aldea Española y Parásitos = Resident Evil 4
+GameCube + Vacaciones Tropicales y Bomba de Agua = Super Mario Sunshine
+GameCube + Terror Psicológico y Cordura = Eternal Darkness: Sanity's Requiem
+GameCube + Caza de Recompensas Cósmica = F-Zero GX
+
+# PlayStation 2 (PS2)
+PS2 + Calles de San Andreas y Bicicleta = Grand Theft Auto: San Andreas
+PS2 + Furia Espartana contra Dioses = God of War / God of War II
+PS2 + Sigilo en la Selva Soviética = Metal Gear Solid 3: Snake Eater
+PS2 + Colosos Gigantes y Caballo = Shadow of the Colossus
+PS2 + Simulación de Fútbol Definitiva = Pro Evolution Soccer 6 (PES 6)
+PS2 + Viaje Mágico y Pelotas de Blitzball = Final Fantasy X
+PS2 + Llave Espada y Mundos Disney = Kingdom Hearts II
+PS2 + Lluvia y Policía en el Infierno = Silent Hill 2
+PS2 + Dúo de Plataformas y Armas Chifladas = Jak and Daxter / Ratchet & Clank
+PS2 + Coche Real y Modo B-Spec = Gran Turismo 4
+
+# Nintendo Wii
+Nintendo Wii + Raqueta y Sensor en Salón = Wii Sports
+Nintendo Wii + Gravedad Planetaria = Super Mario Galaxy / Super Mario Galaxy 2
+Nintendo Wii + Espada y Movimiento 1:1 = The Legend of Zelda: Skyward Sword
+Nintendo Wii + Espada Láser y Emisario Subespacial = Super Smash Bros. Brawl
+Nintendo Wii + Carreras con Volante Plástico = Mario Kart Wii
+Nintendo Wii + Isla de Deportes Extremos = Wii Sports Resort
+Nintendo Wii + Aventura en Mundo Abierto Épico = Xenoblade Chronicles
+Nintendo Wii + Plataformas Retro de Gorilas = Donkey Kong Country Returns
+Nintendo Wii + Pincel Mágico y Pintura = Epic Mickey
+Nintendo Wii + Asesino Otaku y Katana Láser = No More Heroes
+
