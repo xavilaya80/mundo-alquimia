@@ -1681,3 +1681,104 @@ PS4 + Venganza Desoladora en Seattle = The Last of Us Part II
 PS4 + Repartidor Postal en Mundo Roto = Death Stranding
 PS4 + Simulación de Vida Estudiantil y Ladrones = Persona 5 / Persona 5 Royal
 PS4 + Androides con Sentimientos en Detroit = Detroit: Become Human
+
+# ==============================================================
+# EPISODIO: EL MUNDO DEL TRABAJO, PROFESIONES Y EMPLEO
+# ==============================================================
+
+# --------------------------------------------------------------
+# TIER 0: ELEMENTOS BÁSICOS (INICIALES)
+# --------------------------------------------------------------
+# Humano, Tierra, Fuego, Metal, Madera, Papel, Dinero, Electricidad
+
+# --------------------------------------------------------------
+# TIER 1: FUNDAMENTOS DEL TRABAJO, ESPACIOS Y ORGANIZACIÓN
+# --------------------------------------------------------------
+Humano + Dinero = Sueldo / Salario
+Humano + Tiempo = Jornada Laboral
+Sueldo + Jornada Laboral = Empleo
+Empleo + Papel = Contrato de Trabajo
+Contrato de Trabajo + Derechos = Sindicato
+Sindicato + Conflicto = Huelga
+Papel + Resumen = Currículum (CV)
+Currículum + Entrevista = Contratación
+Humano + Madera = Taller
+Metal + Fuego = Fábrica
+Papel + Escritorio = Oficina
+Oficina + Red = Empresa / Corporación
+Oficina + Casa = Teletrabajo (Home Office)
+Dinero + Riesgo = Emprendimiento / Negocio Propio
+Empresa + Datos = Control de Gestión
+
+# --------------------------------------------------------------
+# TIER 2: OFICIOS TRADICIONALES, MANUALES Y CONSTRUCCIÓN
+# --------------------------------------------------------------
+Humano + Piedra = Albañil
+Humano + Madera = Carpintero
+Humano + Metal = Herrero
+Herrero + Tubería = Fontanero / Plomero
+Humano + Electricidad = Electricista
+Humano + Pintura = Pintor
+Albañil + Edificio = Obrero de la Construcción
+Obrero + Seguridad = Casco y Botas de Seguridad
+Tierra + Semilla = Agricultor
+Humano + Animal = Ganadero
+Mar + Red = Pescador
+Tierra + Pico = Minero
+Tela + Tijeras = Sastre / Costurera
+Cuero + Herramienta = Zapatero
+Comida + Fuego = Cocinero / Chef
+Cocinero + Masa = Panadero
+Comida + Mesa = Camarero / Mozo
+Basura + Calle = Barrendero / Recolector de Basura
+Herramienta + Motor = Mecánico
+
+# --------------------------------------------------------------
+# TIER 3: SERVICIOS PÚBLICOS, SALUD Y SEGURIDAD
+# --------------------------------------------------------------
+Humano + Ley = Policía
+Humano + Fuego = Bombero
+Humano + Salud = Enfermero
+Enfermero + Medicina = Médico / Cirujano
+Médico + Dientes = Dentista
+Médico + Mente = Psicólogo
+Medicina + Pastillas = Farmacéutico
+Humano + Escuela = Profesor / Docente
+Humano + Biblioteca = Bibliotecario
+Vehículo + Calle = Conductor / Chofer
+Paquete + Ciudad = Repartidor / Cartero
+
+# --------------------------------------------------------------
+# TIER 4: NEGOCIOS, LEYES Y GESTIÓN CORPORATIVA
+# --------------------------------------------------------------
+Empresa + Dinero = Finanzas
+Finanzas + Factura = Contador / Auditor
+Empresa + Ley = Abogado Corporativo
+Empresa + Mercado = Marketing / Publicidad
+Empresa + Ventas = Vendedor / Ejecutivo Comercial
+Empresa + Personal = Recursos Humanos (RRHH)
+Empresa + Liderazgo = Gerente / CEO
+Empresa + Estrategia = Consultor de Negocios
+Control de Gestión + Reportes = Analista de Datos / KPI
+
+# --------------------------------------------------------------
+# TIER 5: TECNOLOGÍA, CIENCIA E INNOVACIÓN MODERNA
+# --------------------------------------------------------------
+Humano + Computadora = Informático
+Informático + Código = Programador / Desarrollador de Software
+Programador + Servidor = Administrador de Sistemas
+Programador + Base de Datos = Ingeniero de Datos
+Computadora + Diseño = Diseñador Gráfico / UI-UX
+Computadora + Seguridad = Hacker Ético / Ciberseguridad
+Ciencia + Laboratorio = Científico / Investigador
+Metal + Innovación = Ingeniero
+
+# --------------------------------------------------------------
+# TIER 6: ARTE, COMUNICACIÓN Y ENTRETENIMIENTO
+# --------------------------------------------------------------
+Humano + Instrumento = Músico
+Humano + Cámara = Fotógrafo
+Humano + Escenario = Actor
+Papel + Letras = Escritor / Redactor
+Noticias + Micrófono = Periodista
+Video + Internet = Creador de Contenido / Streamer
